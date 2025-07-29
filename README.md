@@ -28,27 +28,6 @@
 
 ---
 
-## ⚙️ 설치 및 실행 방법
-
-### 1. 의존 라이브러리 설치
-
-```bash
-pip install selenium beautifulsoup4 requests pillow
-```
-
-### 2. ChromeDriver 설치
-
-- 크롬 브라우저 버전에 맞는 [ChromeDriver](https://chromedriver.chromium.org/downloads) 다운로드
-- 실행 파일과 같은 폴더에 두거나 환경 변수 `PATH`에 등록
-
-### 3. 크롤러 실행
-
-```bash
-python webtoon_crawler.py
-```
-
----
-
 ## 📁 결과물 예시
 
 - `webtoon_images/` 폴더에 웹툰별 `.png` 썸네일 저장
